@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+    <columns>
+        <group name="basic" numcolumns="4">
+            <column name="activosector" title="Sector activo" order="140">
+                <widget type="checkbox" fieldname="activosector" />
+            </column>
+            <column name="id_red" title="Identificador de red" order="110">
+                <widget type="number" fieldname="id_red" />
+            </column>
+            <column name="id_sector" title="Identificador Sector" order="120">
+                <widget type="number" fieldname="id_sector" />
+            </column>
+            <column name="nombre_sector" title="Nombre Sector" order="130">
+                <widget type="text" fieldname="nombre_sector" />
+            </column>
+        </group>
+        <group name="advanced" numcolumns="5">
+            <column name="num_sector" title="Numero sector" numcolumns="1"order="120">
+                <widget type="number" fieldname="num_sector" />
+            </column>
+            <column name="fecharegistrosector" title="Fecha registro" order="130">
+                <widget type="text" fieldname="fecharegistrosector" />
+            </column>
+            <column name="user" title="Usuario" numcolumns="1"order="140">
+                <widget type="text" fieldname="user" />
+            </column>
+        </group>  
+    </columns>
+</view>

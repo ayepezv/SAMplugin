@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+    <columns>
+        <group name="basic" numcolumns="12">
+            <column name="numeromedidor" title="Número de medidor" order="110">
+                <widget type="text" fieldname="numeromedidor" />
+            </column>
+            <column name="fecharegistromedidor" title="Fecha registro" display="right" order="120">
+                <widget type="date" fieldname="fecharegistromedidor"/>
+            </column>
+            <column name="fechafabricacionmedidor" title="Año del medidor" display="right" order="130">
+                <widget type="date" fieldname="fechafabricacionmedidor"/>
+            </column>
+            <column name="fechainstalacionmedidor" title="Fecha instalación" display="right" order="140">
+                <widget type="date" fieldname="fechainstalacionmedidor"/>
+            </column>
+            <column name="cuenta" title="Cuenta de Agua" order="100">
+                <widget type="text" fieldname="cuenta" />
+            </column>
+        </group>
+        <group name="advanced" numcolumns="12">
+            <column name="diametromedidor" title="Diámetro medidor" order="100">
+                <widget type="text" fieldname="diametromedidor" />
+            </column>
+            <column name="marcamedidor" title="Marca medidor" order="120">
+                <widget type="text" fieldname="marcamedidor" />
+            </column>
+            <column name="modelomedidor" title="Modelo medidor" order="130">
+                <widget type="text" fieldname="modelomedidor" />
+            </column>
+            <column name="numeroesferas" title="Número de esferas" order="140">
+                <widget type="text" fieldname="numeroesferas" />
+            </column>
+            <column name="numerosellomedidor" title="# Sello medidor" order="150">
+                <widget type="text" fieldname="numerosellomedidor" />
+            </column>
+            <column name="sellomedidor" title="Sello del medidor" order="160">
+                <widget type="text" fieldname="sellomedidor" />
+            </column>
+            <column name="ubicacionmedidor" title="Ubicación del medidor" order="170">
+                <widget type="text" fieldname="ubicacionmedidor" />
+            </column>
+        </group>
+    </columns>
+</view>

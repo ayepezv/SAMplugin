@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+    <columns>
+        <column name="idmedidor" title="Id medidor" order="100">
+            <widget type="text" fieldname="idmedidor" />
+        </column>
+        <column name="numeromedidor" title="´# medidor" order="110">
+            <widget type="text" fieldname="numeromedidor" />
+        </column>
+        <column name="fecharegistromedidor" title="Fecha registro" display="right" order="120">
+            <widget type="date" fieldname="fecharegistromedidor"/>
+        </column>
+        <column name="fechafabricacionmedidor" title="Fecha fabricación" display="right" order="120">
+            <widget type="date" fieldname="fechafabricacionmedidor"/>
+        </column>
+        <column name="fechainstalacionmedidor" title="Fecha instalación" display="right" order="120">
+            <widget type="date" fieldname="fechainstalacionmedidor"/>
+        </column>
+        <column name="cuenta" title="# cuenta" order="100">
+            <widget type="text" fieldname="cuenta" />
+        </column>
+        <column name="diametromedidor" title="Diámetro medidor" order="100">
+            <widget type="text" fieldname="diametromedidor" />
+        </column>
+        <column name="marcamedidor" title="marca medidor" order="100">
+            <widget type="text" fieldname="marcamedidor" />
+        </column>
+        <column name="modelomedidor" title="Modelo medidor" order="100">
+            <widget type="text" fieldname="modelomedidor" />
+        </column>
+        <column name="numeroesferas" title="Número de esferas" order="100">
+            <widget type="text" fieldname="numeroesferas" />
+        </column>
+        <column name="numerosellomedidor" itle="# sello medidor" order="100">
+            <widget type="text" fieldname="numerosellomedidor" />
+        </column>
+        <column name="sellomedidor" itle="Sello medidor" order="100">
+            <widget type="text" fieldname="sellomedidor" />
+        </column>
+        <column name="ubicacionmedidor" itle="Ubicación medidor" order="100">
+            <widget type="text" fieldname="ubicacionmedidor" />
+        </column>
+    </columns>
+</view>

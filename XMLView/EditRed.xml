@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+    <columns>
+        <group name="basic" numcolumns="4">
+            <column name="activored" title="Red activa" order="140">
+                <widget type="checkbox" fieldname="activored" />
+            </column>
+            <column name="estado_proceso" title="Estado proceso" order="110">
+                <widget type="number" fieldname="estado_proceso" />
+            </column>
+            <column name="fechafacturacion" title="Fecha facturacion" order="120">
+                <widget type="date" fieldname="fechafacturacion" />
+            </column>
+            <column name="id_red" title="Id red" order="130">
+                <widget type="number" fieldname="id_red" />
+            </column>
+        </group>
+        <group name="advanced" numcolumns="5">
+            <column name="proceso_anio" title="Anio proceso" numcolumns="1"order="120">
+                <widget type="number" fieldname="proceso_anio" />
+            </column>
+            <column name="proceso_mes" title="Mes proceso" numcolumns="1"order="130">
+                <widget type="number" fieldname="proceso_mes" />
+            </column>
+            <column name="nombre_red" title="Nombre de Red" numcolumns="1"order="100">
+                <widget type="text" fieldname="nombre_red" />
+            </column>
+            <column name="num_red" title="# red" maxlength="5" numcolumns="1" order="110">
+                <widget type="number" fieldname="num_red" />
+            </column>
+            <column name="red_urbana" title="Red Urbana" numcolumns="1" order="140">
+                <widget type="checkbox" fieldname="red_urbana" />
+            </column>
+        </group>  
+    </columns>
+</view>
