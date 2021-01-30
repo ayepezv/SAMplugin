@@ -21,7 +21,6 @@ class Red extends Base\ModelClass {
     
      public function clear() {
        parent::clear();
-       $this->fecharegistrored = date('d-m-Y');
        $this->red_urbana = true;
        $this->activored = true;
    }

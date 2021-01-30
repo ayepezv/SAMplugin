@@ -2,6 +2,7 @@
 namespace Facturascripts\Plugins\CatastroAgua\Controller;
 
 use FacturaScripts\Core\Lib\ExtendedController\ListController;
+use Facturascripts\Plugins\CatastroAgua\Controller\whatsAppBot;
 
 class ListRed extends ListController{
     public function getPageData(): array {
@@ -10,7 +11,10 @@ class ListRed extends ListController{
         $data['submenu'] = 'Accesorios';
         $data['title'] = 'Redes';
         $data['icon'] = 'fas fa-network-wired';
+        
+                
         return $data;
+        
     }
     
     protected function createViews() {
